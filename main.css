@@ -1,0 +1,41 @@
+/* Estilos para o carrossel de imagens */
+.carousel-caption {
+    background-color: rgba(255, 182, 193, 1); /* Cor rosa com opacidade 100% */
+    color: white;
+    padding: 10px;
+}
+
+
+/* Estilos para os cards */
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    background-color: rgba(255, 182, 193, 0.1); /* Cor rosa com opacidade leve */
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    max-height: 200px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* Cor do título */
+}
+
+.card-text {
+    font-size: 16px;
+    color: #555; /* Cor do texto */
+}
+
+/* Estilos para o fundo do site */
+body {
+    background-color: #ffe4e1; /* Cor de fundo rosa claro */
+    padding-top: 20px;
+}
